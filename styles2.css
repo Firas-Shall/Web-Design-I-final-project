@@ -208,8 +208,12 @@ li{
 
 @media screen and (max-height: 830px){
     .aboutext{
-        top: 50%;
+        top: 54%;
         width: 90%
+    }
+
+    .aboutext h2{
+        text-align: left;
     }
 
     .aboutext h1{
