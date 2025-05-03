@@ -206,7 +206,7 @@ li{
 
 }
 
-@media screen and (max-height: 800px){
+@media screen and (max-height: 830px){
     .aboutext{
         top: 48%;
         width: 90%
