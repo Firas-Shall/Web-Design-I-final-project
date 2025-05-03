@@ -169,6 +169,10 @@ li{
         width: 80%;
     }
 
+    .aboutext h2{
+        text-align: left;
+    }
+
     .aboutimg2{
         display: block;
         position: relative;
@@ -208,7 +212,7 @@ li{
 
 @media screen and (max-height: 830px){
     .aboutext{
-        top: 54%;
+        top: 50%;
         width: 90%
     }
 
@@ -223,7 +227,7 @@ li{
 
 @media screen and (max-height: 680px){
     .aboutext{
-        top: 54%;
+        top: 59%;
         width: 90%
     }
 
