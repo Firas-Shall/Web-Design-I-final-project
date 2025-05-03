@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo1.svg" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+    <title>Study Buddy</title>
+</head>
+<body>
+  <div id="content">
+    <div class="navbar">
+      
+      <a href="index.html"><img class="logo" src="images/logo1.svg" alt="logo"></a>
+      
+      <div class="login"><div class="log"><a href="login.html">Login</a></div>
+                          <div class="log"><a href="services.html">What we offer</a></div>
+                          <div class="log"><a href="About.html">About</a></div>
+                          <div class="log"><a href="students.html">Our Students</a></div>
+                          <div class="log"><a href="app.html">Get the App</a></div>
+                          <div class="log"><a href="FAQ.html">FAQ</a></div>
+                          <div class="log"><a href="contact.html">Support</a></div>
+                          
+                          
+      </div>
+
+      <div class="menu-dropdown">
+        <select onchange="location = this.value;">
+          <option value="">Navigate</option>
+          <option value="index.html">Home</option>
+          <option value="login.html">LogIn</option>
+          <option value="services.html">What we offer</option>
+          <option value="about.html">About</option>
+          <option value="students.html">Our students</option>
+          <option value="app.html">Get the App</option>
+          <option value="FAQ.html">FAQ</option>
+          <option value="contact.html">Support</option>
+          
+        </select>
+      </div>
+    </div>
+
+    <h1 style="text-align: center; margin-top: 20px; margin-bottom: 30px;">Here's how we help you shine!</h1>
+    <div class="services">
+        <div class="card bg-transparent" style="width: 20rem;">
+            <img src="images/online tutoring.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h2 class="card-title">1-on-1 Online Tutoring</h2>
+            <h5 class="card-text">Personalized sessions with friendly, qualified tutors — made just for you.<br><br>
+                <ul>
+                    <li>Subjects: Math, Science, English, History, and more</li>
+                    <li>All levels: Elementary to High School</li>
+                    <li>Flexible scheduling to fit your routine</li>
+                    <li>Live video + screen sharing for better learning</li>
+                </ul>
+            </h5>
+            <a href="#" class="btn btn-primary">Start</a>
+            </div>
+        </div>
+        <div class="card bg-transparent"  style="width: 20rem;">
+            <img src="images/homework.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h2 class="card-title">Homework Help</h2>
+            <h5 class="card-text">Stuck on a tough question? We’ve got your back.<br><br>
+            <ul>
+                <li>Fast, on-demand help</li>
+                <li>Clear explanations (not just answers!)</li>
+                <li>Support for homework, projects, and test prep</li>
+            </ul>
+            </h5>
+            <a href="#" class="btn btn-primary">Start</a>
+            </div>
+        </div>
+        <div class="card bg-transparent" style="width: 20rem;">
+            <img src="images/test.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h2 class="card-title">Test Preparation</h2>
+            <h5 class="card-text">Ace your exams with confidence!<br><br>
+            <ul>
+                <li>Study plans for school tests, entrance exams, and more</li>
+                <li>Practice questions and timed quizzes</li>
+                <li>Tips, tricks, and review sessions</li>
+            </ul>
+            </h5>
+            <a href="#" class="btn btn-primary">Start</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <input type="email" size="30" placeholder="Subscribe for updates!" class="email">
+        <button type="button" class="btn btn-primary">Subscribe</button>
+      </div>
+</body>
+</html>

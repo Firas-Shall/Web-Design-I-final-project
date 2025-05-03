@@ -1,0 +1,229 @@
+.faqtitle{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+.loginpage p{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px
+}
+
+form{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    padding-left: 40px;
+    width: 400px;
+}
+
+.about{
+    width: 100%;
+
+}
+
+.aboutimg{
+   
+    position: relative;
+    width:100%;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    border-bottom: 3px solid lightslategray;
+}
+
+.aboutimg2{
+    display: none;
+    border-bottom: 3px solid lightslategray;
+}
+
+.aboutext{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.aboutext h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.footerAlt{
+    width: 100%;
+    margin-top: 0px;
+    height: 15vh;
+    line-height: 15vh;
+    background: rgb(235, 235, 235, 0.3);
+    text-align: center;
+}
+
+.student1{
+    grid-area: student1;
+}
+
+.student2{
+    grid-area: student2;
+}
+
+.student3{
+    grid-area: student3;
+}
+
+.student4{
+    grid-area: student4;
+}
+
+.desc1{
+    grid-area: desc1;
+}
+
+.desc2{
+    grid-area: desc2;
+}
+
+.desc3{
+    grid-area: desc3;
+}
+
+.desc4{
+    grid-area: desc4;
+}
+
+.students img{
+    width: 600px;
+   
+}
+.students{
+    padding-bottom: 40px;
+    margin: 40px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-areas: 
+        "student1 desc1"
+        "desc2 student2"
+        "student3 desc3"
+        "desc4 student4";
+    row-gap: 100px;
+    column-gap: 20px;
+    font-size: 1.5rem;
+    color: #003B5C;
+}
+
+.appimg{
+    width: 300px;
+    object-fit: cover;
+}
+
+.apppage{
+    display:flex;
+    justify-content: space-around;
+    margin: 40px auto;
+}
+
+.available{
+    width: 200px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutimg{
+        display: none;
+    }
+
+    .apppage{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .appimg{
+        order: 0;
+        margin: 0px auto;
+    }
+
+    .appcontent{
+        order: 1;
+        margin: 0px auto;
+    }
+
+    .appcontent> h1, h2 {
+        text-align: center;
+    }
+
+    .available{
+        margin: 0px auto;
+    }
+
+    .aboutext{
+        top: 45%;
+        width: 80%;
+    }
+
+    .aboutimg2{
+        display: block;
+        position: relative;
+        width:100%;
+        margin: 0px auto;
+        margin-bottom: 0px;
+        opacity: 0.4;
+    }
+
+    .students{
+        margin: 30px 10px;
+        row-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px;
+        grid-template-areas: 
+            "student1"
+            "desc1"
+            "student2"
+            "desc2"
+            "student3"
+            "desc3"
+            "student4"
+            "desc4";
+    }
+
+    .students img{
+        width: 400px;
+        margin-left: 10px;
+    }
+
+    .services{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-height: 800px){
+    .aboutext{
+        top: 48%;
+        width: 90%
+    }
+
+    .aboutext h1{
+        font-size: 3.2rem;
+}
+}
+
+@media screen and (max-height: 680px){
+    .aboutext{
+        top: 54%;
+        width: 90%
+    }
+
+    .aboutext h1{
+        font-size: 3rem;
+}
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo1.svg" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+    <title>Study Buddy</title>
+</head>
+<body>
+  <div id="content">
+    <div class="navbar">
+      
+      <a href="index.html"><img class="logo" src="images/logo1.svg" alt="logo"></a>
+      
+      <div class="login"><div class="log"><a href="login.html">Login</a></div>
+                          <div class="log"><a href="services.html">What we offer</a></div>
+                          <div class="log"><a href="About.html">About</a></div>
+                          <div class="log"><a href="students.html">Our Students</a></div>
+                          <div class="log"><a href="app.html">Get the App</a></div>
+                          <div class="log"><a href="FAQ.html">FAQ</a></div>
+                          <div class="log"><a href="contact.html">Support</a></div>
+                          
+                          
+      </div>
+
+      <div class="menu-dropdown">
+        <select onchange="location = this.value;">
+          <option value="">Navigate</option>
+          <option value="index.html">Home</option>
+          <option value="login.html">LogIn</option>
+          <option value="services.html">What we offer</option>
+          <option value="about.html">About</option>
+          <option value="students.html">Our students</option>
+          <option value="app.html">Get the App</option>
+          <option value="FAQ.html">FAQ</option>
+          <option value="contact.html">Support</option>
+          
+        </select>
+      </div>
+    </div>
+
+
+    <div class="loginpage">
+        <form method="post">
+            <h1>Sign Up</h1><br>
+            <label for="firstname">First Name:</label><br>
+            <input type="text" size="40" id="firstname" name="firstname" required><br>
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" size="40" id="lastname" name="lastname" required><br><br>
+            <input type="radio" id="student" name="role" value="student" checked>Student
+            <input type="radio" id="teacher" name="role" value="teacher">Teacher<br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" size="40" id="email" name="email" required><br>
+            
+
+            <label for="password">Password:</label><br>
+            <input type="password" size="40" id="password" name="password" required><br><br>
+            <input class="btn btn-primary" type="submit" value="Sign Up"><br>
+            <p>Already have an account? <a href="login.html">Login here!</a></p>
+        </form>
+    </div>
+  </div>
+    <div class="footer">
+      <input type="email" size="30" placeholder="Subscribe for updates!" class="email">
+      <button type="button" class="btn btn-primary">Subscribe</button>
+    </div>
+</body>
+</html>

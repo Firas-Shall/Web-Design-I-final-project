@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo1.svg" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+    <title>Study Buddy</title>
+</head>
+<body>
+<div id="content">
+
+  <div class="navbar">
+      
+    <a href="index.html"><img class="logo" src="images/logo1.svg" alt="logo"></a>
+    
+    <div class="login"><div class="log"><a href="login.html">Login</a></div>
+                        <div class="log"><a href="services.html">What we offer</a></div>
+                        <div class="log"><a href="About.html">About</a></div>
+                        <div class="log"><a href="students.html">Our Students</a></div>
+                        <div class="log"><a href="app.html">Get the App</a></div>
+                        <div class="log"><a href="FAQ.html">FAQ</a></div>
+                        <div class="log"><a href="contact.html">Support</a></div>
+                        
+                        
+    </div>
+
+    <div class="menu-dropdown">
+      <select onchange="location = this.value;">
+        <option value="">Navigate</option>
+        <option value="index.html">Home</option>
+        <option value="login.html">LogIn</option>
+        <option value="services.html">What we offer</option>
+        <option value="about.html">About</option>
+        <option value="students.html">Our students</option>
+        <option value="app.html">Get the App</option>
+        <option value="FAQ.html">FAQ</option>
+        <option value="contact.html">Support</option>
+        
+      </select>
+    </div>
+  </div>
+
+    <div class="faqpage">
+        <h1 class="faqtitle">Most Asked Questions</h1>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What subjects does Study Buddy offer tutoring in?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>We offer tutoring in a wide range of subjects,</strong>  including Math, Science, English, and more. Whether you're in elementary school or preparing for college entrance exams, we’ve got you covered.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How does Study Buddy match me with the right tutor?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>We match you with tutors based on your subject needs,</strong> grade level, and availability. You can also browse tutor profiles to find someone whose teaching style suits you best.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Are the tutoring sessions online or in-person?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>All of our tutoring sessions are conducted online</strong> for maximum flexibility and convenience. You can learn from anywhere—no commute needed!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Who are the tutors at Study Buddy?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Our tutors are experienced, qualified educators</strong> and university students who are passionate about teaching. Each tutor goes through a thorough screening process to ensure top-quality support.
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+
+    <p class="supp">For more questions and support <a href="contact.html">go here!</a></p>
+  </div>
+    <div class="footer">
+      <input type="email" size="30" placeholder="Subscribe for updates!" class="email">
+      <button type="button" class="btn btn-primary">Subscribe</button>
+    </div>
+    
+
+</body>
+</html>

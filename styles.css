@@ -1,0 +1,306 @@
+*{
+    font-family: "Special Gothic Condensed One", sans-serif;
+}
+
+body{
+    background: url("images/background.webp") fixed;
+    background-size: cover;
+}
+
+h1{
+    color: #003B5C;
+}
+
+#content {
+    min-height: calc(100vh - 15vh);
+   
+  }
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 5px;
+    border-bottom: 3px solid lightslategray;
+    
+    
+    font-size: 1.5rem;
+    background: rgb(235, 235, 235, 0.3);
+    
+}
+
+a{
+    display:contents;
+    text-decoration: none;
+    color: #003B5C;
+}
+
+
+.log{
+    display: inline-block;
+    background: #ebebeb;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 3px;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.log:hover{
+    transform: scale(1.07) !important;
+    cursor: pointer;
+}
+
+.logo{
+    width: 6%;
+    padding: 4px;
+}
+
+
+
+select{
+    font-size: 2rem;
+    border: none;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #003B5C;
+    background: #ebebeb;
+}
+
+.btn{
+    margin: 4px;
+    font-size: 1.5rem;
+    background-color: #003B5C;
+    border-color: #003B5C;
+}
+
+
+
+.btn:hover{
+    background-color: #003B5C;
+    opacity: 80%;   
+}
+
+.btn:active{
+    background-color: #003B5C;
+    opacity: 30%;   
+}
+
+option:hover{
+    background-color: #003B5C;
+}
+
+.mainpage{
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.mainpagecontent{
+    color: rgb(55, 58, 60);
+    
+    padding: 30px 25px;
+    border-radius: 8px;
+   
+
+}
+
+.mainpageimg{
+    width: 40%;
+}
+
+.circle{
+    clip-path: circle(40%);
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.why{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    color: rgb(55, 58, 60);
+}
+
+.separator{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    color: rgb(55, 58, 60);
+}
+
+.whyimg{
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+.item{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.item h3{
+    margin-bottom: 15px;
+}
+
+.loginpage{
+    color: rgb(55, 58, 60);
+}
+
+form{
+    width: 500px;
+    margin: 50px auto;
+    background: rgb(235, 235, 235, 0.5);
+    padding: 30px 30px;
+    border-radius: 8px;
+}
+
+.faqpage{
+    width: 70%;
+    margin: 50px auto;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+
+}
+
+.faqtitle{
+    margin-bottom: 40px;
+}
+
+
+.accordion-button{
+    font-size: 2rem;
+    background-color: rgb(235, 235, 235, 0.3);
+}
+
+.accordion-body{
+    background-color: rgb(235, 235, 235, 0.3);
+}
+
+.accordion-item{
+    background-color: rgb(235, 235, 235, 0.3);
+}
+
+.altbackground{
+    background: url("images/faqbackground.png") fixed;
+    background-size: cover;
+}
+
+.footer{
+    width: 100%;
+    height: 15vh;
+    margin-top: 40px;
+    line-height: 15vh;
+    background: rgb(235, 235, 235, 0.3);
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.email{
+    height: 40px;
+}
+
+.supp{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 0px;
+}
+
+.menu-dropdown {
+    display: none;
+  }
+
+@media screen and (max-width: 768px) {
+  
+    h1{
+        font-size: 2.5rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+
+    .logo{
+        width: 25%;
+    }
+
+    .mainpage{
+        height: 100%;
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+    }
+    .mainpagecontent{
+        width: 100%;
+        border: none;
+        padding: 20px 15px;
+    }
+    .mainpageimg{
+        margin-right: 30px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .why{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item{
+        width: 85%;
+        margin-bottom: 20px;
+    }
+
+    .whyimg{
+        width: 30%;
+    }
+
+    form{
+        margin-top: 10px;
+        width: 90%;
+        
+    }
+
+    
+
+    label{
+        font-size: 1.8rem;
+    }
+
+    .faqpage{
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .faqtitle{
+        margin-bottom: 20px;
+    }
+    
+    .login {
+        display: none;
+      }
+
+      .menu-dropdown {
+        display: block;
+        
+      }
+
+      .menu-dropdown select {
+        padding: 8px;
+        font-size: 1.8rem;
+      }
+      
+      
+}
+
+
